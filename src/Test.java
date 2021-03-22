@@ -9,8 +9,6 @@ public class Test {
         people.add(new Person("Gloria", 27, "Programmer"));
 
         System.out.println(people.size());
-        System.out.println(people.get(2));
-
-//        System.out.println(people);
+        System.out.println(people.get(10));
     }
 }
