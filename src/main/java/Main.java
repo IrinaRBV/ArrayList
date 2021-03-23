@@ -1,4 +1,4 @@
-public class Test {
+public class Main {
     public static void main(String[] args) {
         ArrayListInterface people = new ArrayListPerson();
         people.add(new Person("Tom", 22, "Tester"));
