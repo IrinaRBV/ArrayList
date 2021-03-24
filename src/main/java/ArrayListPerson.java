@@ -58,7 +58,8 @@ public class ArrayListPerson implements ArrayListInterface {
     // Бросаем exception, если выходим за предел массива
     private void checkIndexArray(int index) {
         if(index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Index " + index + " not found");
+            String textError = String.format("Index %d not found", index);
+            throw new IndexOutOfBoundsException(textError);
         }
     }
 
